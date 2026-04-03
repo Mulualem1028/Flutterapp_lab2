@@ -1,0 +1,46 @@
+# Flutter / Dart
+.dart_tool/
+build/
+flutter_export_environment.sh
+.packages
+.pub/
+.pub-cache/
+.pubspec.lock
+
+# Xcode
+*.xcuserdata
+*.xcworkspace
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+build/ios
+ios/Flutter/Generated.xcconfig
+ios/Flutter/AppFrameworkInfo.plist
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/*.keystore
+**/android/app/build/
+**/android/build/
+
+# macOS / Linux / Windows
+**/macos/Flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# IDE and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated assets
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/GeneratedPluginRegistrant.*
+**/android/app/src/main/kotlin/**/GeneratedPluginRegistrant.*
+
+# Screenshots and local metadata
+**/Screenshot*.png
+**/.metadata
